@@ -1,4 +1,4 @@
- *{margin: 0px auto; padding: 0px; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+*{margin: 0px auto; padding: 0px; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
 img {max-width:100%;}
 a {text-decoration:none;}
 .container { max-width: 1600px; margin: 0px auto; padding: 0px ;}
@@ -16,7 +16,7 @@ header {
 
 .close-img {width: 28px; height: auto;}
 
-.head-wrap {text-align: center; margin-top: 120px;}
+.head-wrap {text-align: center; margin-top: 110px;}
 
 .head-wrap h1 { font-size: 41pt; color: #5b5b5b; font-weight: lighter;}
 
@@ -72,22 +72,24 @@ header {
 
 .plan-box .plan-Contant h3 {font-weight: 500; margin: 8px; color: #666666; font-size: 22px;}
 
-.plan-box .plan-amt { display: flex;  width:20%; align-items: center; justify-content: center;  font-weight: 500; font-size: 30px; background-color: #14a388; color: #fff; }
+.plan-box .plan-amt { display: flex;  width:20%; align-items: center; justify-content: center;  font-weight: 500; font-size: 30px;
+     background-color: #14a388; color: #fff; }
 
-.plan-box .plan-amt-2 { display: flex;  width:20%; align-items: center; justify-content: center;  font-weight: 500; font-size: 30px; background-color: #425b77; color: #fff; }
+.plan-box .plan-amt-2 { display: flex;  width:20%; align-items: center; justify-content: center;  font-weight: 500; font-size: 30px; 
+    background-color: #425b77; color: #fff; }
 
-.plan-Contant .cnt-bot-left { position: relative; width: 30%; float: left; padding-left: 25px; font-weight: 300; font-size: 14px;}
+.plan-Contant .cnt-bot-left { position: relative; width: 30%; float: left; padding-left: 25px; font-weight: 300; font-size: 14px; color: #808080;}
 
-.plan-Contant .cnt-bot-left::before {content: "\2022"; color: #14a388; font-size: 30px; font-weight: 700; line-height: 10px;
-    padding-right: 20px; position: absolute;left: 5px;}
-
-.plan-Contant .cnt-bot-left-1 { position: relative; width: 30%; float: left; padding-left: 25px; font-weight: 300;
-    font-size: 14px; }
-
-.plan-Contant .cnt-bot-left-1::before {  position: absolute; content: "\2022"; color: #425b77; font-size: 30px; font-weight: 700; line-height: 10px;
+.plan-Contant .cnt-bot-left::before {position: absolute; content: "\2022"; color: #14a388; font-size: 30px; font-weight: 700; line-height: 10px;
     padding-right: 20px; left: 5px;}
 
-.plan-Contant .cnt-bot-right {width: 70%; font-weight: 300; font-size: 14px;}
+.plan-Contant .cnt-bot-left-1 { position: relative; width: 30%; float: left; padding-left: 25px; font-weight: 300;
+    font-size: 14px; color: #808080; }
+
+.plan-Contant .cnt-bot-left-1::before {  position: absolute; content: "\2022"; color: #425b77; font-size: 30px; font-weight: 700; 
+    line-height: 10px; padding-right: 20px; left: 5px;}
+
+.plan-Contant .cnt-bot-right {width: 70%; font-weight: 300; font-size: 14px; color: #808080;}
 
 .plan-Contant:hover { border-left: 4px solid #14a388;}
 
@@ -95,7 +97,7 @@ header {
 
 .copy-r { font-size: 8px; font-weight: 400; margin-top: 12px; margin-right: 38px; text-align: end;}
 
-.btn{ display: flex; width: 30%; align-items: center; justify-content: center; padding: 20px 0px; font-size: 20px; background-color: #12d6b0; border-radius: 5px;}
+.btn{ display: flex; width: 30%; align-items: center; justify-content: center; padding: 20px 0px; font-size: 20px; background-color: #12d6b0; border-radius: 5px; margin-bottom: 30px;}
 
 .btn a{ color: #ffffff;}
 
@@ -105,11 +107,21 @@ header {
 
 
 
+@media only screen  and (max-width: 1600px) {
+
+    .head-wrap {text-align: center; margin-top: 90px;}
+
+    .head-wrap h1 { font-size: 36pt;}
+
+    .icon-warp-hd-text span {font-size: 36px; }
+
+}
+
 
 
 @media only screen  and (max-width: 1024px) {
 
-    .container { width: 100%;  padding: 0px 10px;}
+    .container { width: 700px;  padding: 0px 10px;}
 
     .header { height: 100px;}
 
@@ -121,7 +133,7 @@ header {
     
     .close-img { width: 24px; height: auto;}
 
-    .head-wrap { margin-top: 90px;}
+    .head-wrap { margin-top: 80px;}
 
     .head-wrap h1 { font-size: 30pt;}
 
@@ -168,7 +180,7 @@ header {
 
     .plan-Contant .cnt-bot-right {width: 70%; font-weight: 300; font-size: 12px;}
 
-    .btn{ width: 40%;}
+    .btn{ width: 40%; margin-bottom: 30px;}
 
 }
 
@@ -320,17 +332,17 @@ header {
 
     .Plan-mob-contant-1 .top-contant-1 { text-align: center; font-weight: 300; font-size: 14px; margin-top: 10px;}
 
-    .Plan-mob-contant-1 .mid-contant-1 { padding: 10px 0px; text-align: center; font-weight: 300; font-size: 14px;}
+    .Plan-mob-contant-1 .mid-contant-1 {  text-align: center; font-weight: 300; font-size: 14px; padding: 10px 0px;}
 
-    .Plan-mob-contant-1 .bot-contant-1 {padding: 10px 0px; text-align: center; font-weight: 500; font-size: 20px; background-color: #425b77; color: #fff;}
+    .Plan-mob-contant-1 .bot-contant-1 { text-align: center; font-weight: 500; font-size: 20px; background-color: #425b77; color: #fff; padding: 10px 0px;}
 
     .Plan-mob-contant:hover {border-top: 4px solid #14a388; }
 
     .Plan-mob-contant-1:hover { border-top: 4px solid #425b77;}
 
-    .copy-r {font-size: 10px; text-align: center;}
+    .copy-r {font-size: 9px;}
 
-    .btn{ width: 60%; margin-top: 10px;}   
+    .btn{ width: 60%; margin-top: 10px; border-bottom: 30px;}   
 
  }
   
